@@ -19,7 +19,7 @@ from airly.measurements import Measurement
 weather_dict = []
 from geopy.geocoders import Nominatim
 
-address=input("Prosze podać kod pocztowy lub adres: ")
+address=input("Bardzo prosze podać kod pocztowy lub adres: ")
 geolocator = Nominatim(user_agent="Monika")
 location = geolocator.geocode(address)
 print(location.address)
