@@ -19,7 +19,7 @@ scaler=joblib.load("scaler.pkl")
 #print(scaler)
 model=joblib.load("randomf.pkl")
 #print(model)
-url = 'https://raw.githubusercontent.com/jodekpotasu/smoghub/master/X_dotestow.csv'
+url = 'https://raw.githubusercontent.com/meliaszkowalska/smogly_app/master/X_dotestow.csv'
 X_dotestowgit = wget.download(url)
 X_dotestow = pd.read_csv(X_dotestowgit)
 idpunktu = str(895)
